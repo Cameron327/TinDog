@@ -5,8 +5,11 @@
     <title>TinDog</title>
 
     <!-- Added in the fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Link to styles.css and bootstrap 4.0 -->
     <!-- ALWAYS LINK YOUR CUSTOM CSS AFTER THE BOOTSTRAP ONE -->
@@ -18,7 +21,10 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Added in the javascript and jquery stuff for response -->
+    <!-- Added in the fontawesome library -->
+    <script src="https://kit.fontawesome.com/9e473642fd.js" crossorigin="anonymous"></script>
+
+    <!-- Added in the javascript and jquery stuff for response (the bootstrap scripts)-->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -38,52 +44,52 @@
 
   <body>
     <section id="title">
-      <!-- Nav Bar -->
+      <div class="container-fluid">
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Tindog</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
-            </li>
-          </ul>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">Tindog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet new and interesting dogs nearby.</h1>
+            <!-- This adds the apple logo to our button (the 'i' is similar to the span tag) -->
+            <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+          </div>
+
+          <div class="col-lg-6">
+            <img src="images/iphone6.png" alt="iphone-mockup" />
+          </div>
         </div>
-      </nav>
-
-      <!-- Title -->
-
-      <div class="row">
-
-        <div class="col-lg-6">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
-        </div>
-
-        <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup" />
-        </div>
-
       </div>
-
     </section>
 
     <!-- Features -->
