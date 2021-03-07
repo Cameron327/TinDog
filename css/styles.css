@@ -20,6 +20,13 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
 h3 {
     font-family: 'Montserrat';
     font-weight: bold;
@@ -84,4 +91,43 @@ p {
 /* To have a hover effect, you have to use the pseudostate and pair it with whatever you want the effect for */
 .icon:hover {
     color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    /* 100% makes it a circle */
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;    
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
